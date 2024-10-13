@@ -1,11 +1,5 @@
 {
     "version": 2,
-    "builds": [
-      {
-        "src": "api/fetch_url_content.py",
-        "use": "@vercel/python"
-      }
-    ],
     "routes": [
       {
         "src": "/api/fetch-url-content",
