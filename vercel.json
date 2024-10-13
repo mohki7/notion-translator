@@ -9,7 +9,7 @@
     "routes": [
       {
         "src": "/api/hello",
-        "dest": "/api/hello.py"
+        "dest": "api/hello.MyHandler"
       }
     ]
   }
