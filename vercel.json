@@ -1,9 +1,15 @@
 {
     "version": 2,
+    "builds": [
+      {
+        "src": "api/hello.py",
+        "use": "@vercel/python"
+      }
+    ],
     "routes": [
       {
-        "src": "/api/fetch-url-content",
-        "dest": "/api/fetch_url_content.py"
+        "src": "/api/hello",
+        "dest": "/api/hello.py"
       }
     ]
   }
